@@ -1,0 +1,104 @@
+@media only screen and (max-width:1199px){
+
+}
+
+@media only screen and (max-width:991px){
+    .container{
+        width:100%;
+        padding:0 30px;
+    }
+    .home-text h2 {
+        font-size: 30px;
+        
+    }
+    .section-title .sub-title {
+        font-size: 30px;
+       
+    }
+    
+    
+
+}
+
+@media only screen and (max-width:767px){
+    .container{
+        width:100%;
+    }
+    .home-img, .home-text {
+        grid-column: span 12;
+        text-align:center;
+      
+    }
+    .home-text {
+        margin-bottom: 82px;
+        width: 100%;
+    }
+    
+    a.btn {
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .about-img, .about-text {
+        grid-column: span 12;
+    }
+    .services-item {
+        grid-column: span 12;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .services-item .img-box {
+        margin: auto;
+    }
+    .fun-fact-item {
+
+        grid-column: span 6;
+        margin-bottom:40px;
+    }
+    .pricing-item {
+        grid-column: span 12;
+       
+    }
+    .contact-details, .contact-form {
+        grid-column: span 12;
+    }
+    .footer-item {
+        grid-column: span 12;
+     
+    }
+    .footerPrice{
+        text-align:center;
+    }
+    a.btn.footerPrice {
+        position: absolute;
+        left: 147px;
+        width: 172px;
+        color: #ff0000b5;
+    }
+    .pricing-header h3 {
+        text-transform: uppercase;
+    
+    }
+   
+    
+}
+
+@media only screen and (max-width:575px){
+    .container{
+        width:100%;
+    }
+    .fancy-br-box {
+        height: 300px;
+        width: 300px;
+    
+    }
+    .fun-fact-item {
+        grid-column: span 12;
+       
+    }
+
+}
